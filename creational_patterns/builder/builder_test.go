@@ -11,8 +11,6 @@ import (
 // 適合創建製造過程相似且僅有細節上的差異的object
 // 避免過多的構造函數的出現
 
-// https://refactoringguru.cn/design-patterns/builder
-
 func TestBuilder(t *testing.T) {
 	normalBuilder := newNormalBuilder()
 	iglooBuilder := newIglooBuilder()
